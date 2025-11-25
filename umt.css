@@ -1,0 +1,139 @@
+/* GLOBAL */
+body {
+    margin: 0;
+    background-color: #2b0a3d;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVIGATION */
+nav {
+    background-color: #400080;
+    padding: 12px 25px;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* HEADER */
+.logo-search-container {
+    background: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-search-container img {
+    height: 60px;
+}
+
+/* SEARCH */
+.search-input {
+    padding: 7px 10px;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+}
+
+.search-button {
+    margin-left: 8px;
+    padding: 7px 12px;
+}
+
+/* HERO BANNER */
+.hero-banner img {
+    width: 100%;
+    max-height: 380px;
+    object-fit: cover;
+    display: block;
+}
+
+/* MAIN CONTENT LAYOUT */
+.container {
+    max-width: 1200px;
+    margin: 25px auto;
+    padding: 25px;
+    background: white;
+    display: flex;
+    gap: 30px;
+}
+
+.left-column {
+    flex: 3;
+}
+
+.right-column {
+    flex: 1;
+}
+
+/* TABLE */
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.data-table th,
+.data-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.hero-video {
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+/* FOOTER */
+.umt-footer {
+    background: #2b0a3d;
+    color: white;
+    padding: 40px 0;
+    margin-top: 40px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column h3 {
+    color: #00AEEF;
+    margin-top: 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ffffff44;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column a {
+    color: #ccc;
+    text-decoration: none;
+    line-height: 1.8;
+}
+
+.footer-column a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    background: #222;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+}
