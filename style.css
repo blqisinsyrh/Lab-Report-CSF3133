@@ -1,114 +1,28 @@
-/* --- General Styling --- */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  line-height: 1.6;
+    background-color: #ffeef7; /* pastel pink */
+    font-family: Arial, sans-serif;
+    text-align: center;
 }
 
-/* --- Header and Navigation --- */
-header {
-  background: rgb(255, 195, 255);
-  color: white;
-  padding: 1em 0;
-  text-align: center;
+.question-box {
+    background-color: #fff6ff; /* pastel lavender */
+    padding: 15px;
+    margin: 15px auto;
+    width: 80%;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
+.option-btn {
+    background-color: #ddf7ff; /* pastel blue */
+    border: none;
+    padding: 7px;
+    margin: 5px;
+    border-radius: 5px;
 }
 
-nav ul li {
-  display: inline;
-  margin: 0 15px;
+.timer {
+    color: #ff77aa; /* darker pastel pink */
+    font-weight: bold;
 }
 
-/* --- Link States --- */
-nav ul li a:link {
-  color: white;
-  text-decoration: none;
-}
-
-nav ul li a:visited {
-  color: #ffe6ff; /* light pink for visited links */
-}
-
-nav ul li a:hover {
-  color: #7c0249;
-  text-decoration: underline;
-}
-
-nav ul li a:active {
-  color: #ff80c0;
-  text-decoration: overline;
-}
-
-/* --- Sections --- */
-section {
-  padding: 20px;
-}
-
-/* --- Video --- */
-video {
-  display: block;
-  margin: 0 auto;
-}
-
-.caption {
-  text-align: center;
-  font-size: 0.9em;
-  color: #555;
-}
-
-/* --- Form Styling --- */
-form {
-  max-width: 400px;
-  margin: auto;
-  background: #f9f9f9;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-input[type="text"],
-input[type="email"] {
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-button {
-  background: #7c0249;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-button:hover {
-  background: #4e0344;
-}
-
-/* --- Footer --- */
-footer {
-  background: #da96bb;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  margin-top: 20px;
-}
-
-/* --- Responsive Design --- */
-@media (max-width: 600px) {
-  nav ul li {
-    display: block;
-    margin: 10px 0;
-  }
-
-  form {
-    width: 90%;
-  }
-}
